@@ -4,6 +4,9 @@
 export OMARCHY_PATH=$HOME/.local/share/omarchy
 export PATH=$OMARCHY_PATH/bin/:$PATH
 
+# Ensure custom Hypr bins are in the path
+export PATH=$HOME/.config/hypr/bin:$PATH
+
 # Set default terminal and editor
 source ~/.config/uwsm/default
 
