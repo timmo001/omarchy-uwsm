@@ -7,6 +7,9 @@ export PATH=$OMARCHY_PATH/bin/:$PATH
 # Ensure custom Hypr bins are in the path
 export PATH=$HOME/.config/hypr/bin:$PATH
 
+# Ensure user-local bins are in the path so uwsm app resolves stowed ~/.local/bin shims
+export PATH=$HOME/.local/bin:$PATH
+
 # Set default terminal and editor
 source ~/.config/uwsm/default
 
