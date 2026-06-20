@@ -1,4 +1,7 @@
 # Changes require a relaunch of Hyprland to take effect.
 
 export TERMINAL=xdg-terminal-exec
-export EDITOR=nvim
+export EDITOR="omarchy-launch-editor --inline"
+
+# Used by terminal programs (like gh) to open URLs detached from the terminal process tree
+export BROWSER=omarchy-launch-browser
