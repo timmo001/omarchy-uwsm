@@ -10,6 +10,9 @@ export PATH=$HOME/.config/hypr/bin:$PATH
 # Ensure user-local bins are in the path so uwsm app resolves stowed ~/.local/bin shims
 export PATH=$HOME/.local/bin:$PATH
 
+# Allow long-running OpenCode subtasks to continue in the background
+export OPENCODE_EXPERIMENTAL_BACKGROUND_SUBAGENTS=true
+
 # Set default terminal and editor
 source ~/.config/uwsm/default
 
